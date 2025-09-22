@@ -3,5 +3,5 @@ print("enter strings")
 strings=[]
 for i in range(n):
     l=input()
-    string.append(l)
+    strings.append(l)
 print(strings)
