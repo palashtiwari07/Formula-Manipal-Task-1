@@ -5,8 +5,8 @@ for i in range(n):
     l=input()
     strings.append(l)
 d={}
-for j in strings:
-    for k in j:
+for i in strings:
+    for k in i:
         if k in d:
             d[k]+=1
         else:
